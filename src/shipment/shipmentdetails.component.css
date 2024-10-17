@@ -1,0 +1,26 @@
+
+    .div-left{
+        float:left;
+        padding-left:10px;
+    }
+    .div-right{
+        position: fixed;
+        top: 20px;
+        right: 800px;
+    }
+    h3 {
+        left: 500px;
+        }
+        .backClose
+      {
+        margin-bottom: 20px;
+        margin-top:50px;
+      }
+     td {
+        padding: 10px;
+      }
+   .moreInfo
+   {
+    float:right;
+   }
+      

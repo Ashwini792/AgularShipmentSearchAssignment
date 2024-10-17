@@ -1,0 +1,57 @@
+
+<div id="shipmentlist">
+  <div class="backClose">
+  <button class="leftButton" (click)="goBack()" >Back</button>
+  <a class="rightButton"   [routerLink]="['home']"><button>Close</button></a>
+</div>
+<h3>shipment search results</h3>
+<div  scroller>
+<table class="table" border="1">
+  <tr><span>{{shipmentData.length}} results</span></tr>
+ <tr *ngFor="let shipmentSingle of shipmentData">
+    <td>
+      <a>{{shipmentSingle.OrderNo}}</a><br/>
+      <a>{{shipmentSingle.ShipmentLines.TotalNumberOfRecords}} Products</a><br/>
+      <a *ngIf="shipmentSingle.DeliveryMethod==='SHP'">Carrier : {{shipmentSingle.ScacAndService}}</a><br/>
+      <a>Shipment # <a [routerLink]="['/shipment/details', shipmentSingle.ShipmentNo]">{{shipmentSingle.ShipmentNo}}</a></a><br/>
+    </td>
+    <td>
+      <a>{{shipmentSingle.Status}}</a><br/>
+      <a>Assigned to: {{shipmentSingle.AssignedToUserId}}</a><br/>
+      <a *ngIf="shipmentSingle.DeliveryMethod==='PICK'">Expected Pickup date: {{shipmentSingle.ExpectedShipmentDate}}</a>
+      <a *ngIf="shipmentSingle.DeliveryMethod==='SHP'">Expected Ship date: {{shipmentSingle.ExpectedShipmentDate}}</a>
+    </td>
+    <td>
+      <a>Customer Info</a><br />
+      <a>{{shipmentSingle.BillToAddress.FirstName + shipmentSingle.BillToAddress.LastName}}</a><br/>
+      <a>{{shipmentSingle.BillToAddress.DayPhone}}</a><br/>
+      <a>{{shipmentSingle.BillToAddress.EmailID}}</a>
+    </td>
+   
+
+  </tr>
+</table>
+</div>
+
+<!--</div>
+<div class="table" id="rightNavBar">
+  <ul *ngFor="let child of this.shipmentStatusService.status">{{child.name}}<span class="pull-right"><input type="checkbox"></span></ul>
+  <button  type="submit" class="btn btn-primary">Reset</button>
+  <button   type="submit" class="btn btn-primary">Apply</button>
+</div>-->
+<div  class="fixed-element">
+  <button (click)="filterClick()"><img src="assets/filter.png" /></button>
+<table *ngIf="enableFilter">
+  <tr *ngFor="let child of status">
+  <th scope="row">
+    <input class="form-check-input" type="checkbox" [value]="child.id" [checked]="child.select" (change)="onChangeStatus($event)" />
+  </th>
+  <td>{{child.name}}</td>
+  </tr>
+  <tr>
+  <td> <button  (click)="resetData()" type="submit" class="btn btn-primary">Reset</button></td>
+    <td><button  (click)="filterByStatus()" type="submit" class="btn btn-primary">Apply</button></td>
+    </tr>
+</table>
+</div>
+</div>

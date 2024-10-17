@@ -1,0 +1,42 @@
+
+    .fixed-element {
+        position: absolute;
+        top: 50px;
+        right: 350px;
+        background-color: grey;
+        margin-top:70px;
+    }
+    .div-left{
+        float:left;
+        padding-left:10px;
+    }
+    .div-right{
+        position: absolute;
+        top: 20px;
+        right: 70%;
+    }
+   
+#shipmentlist
+        {
+            margin-top: 10px;
+        }
+      .backClose
+      {
+        margin-bottom: 20px;
+        margin-top:20px;
+      }
+      .rightButton {
+        margin-left: 50%;
+        margin-top: 20px;
+        max-width: 100px;
+        padding:5px;
+      }
+      
+      .leftButton {
+        margin-left: 0px;
+        margin-top: 20px;
+
+        max-width: 100px;
+        padding:5px;
+      
+      }

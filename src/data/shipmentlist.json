@@ -1,0 +1,352 @@
+{
+    "Shipments": {
+        "TotalNumberOfRecords": "15",
+        "Shipment": [
+            {
+                "AssignedToUserId": "abrooks",
+                "DeliveryMethod": "SHP",
+                "ExpectedShipmentDate": "27-10-2017",
+                "OrderNo": "SFS1000001",
+                "ScacAndService": "UPSNGround",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "SFS1000001_SHPKEY",
+                "ShipmentNo": "SFS1000001SHPNO",
+                "Status": "Cancelled",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "4"
+                }
+               
+               
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK1000001",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000122",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO133",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "1234567898",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000123",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY134",
+                "ShipmentNo": "PICK1000001SHPNO",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000125",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY136",
+                "ShipmentNo": "PICK1000001SHPNO",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000124",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO23",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000134",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO45",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000154",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO56",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000165",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO342",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000145",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO65",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000145",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY43",
+                "ShipmentNo": "PICK1000001SHPNO543",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK100000145",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO67",
+                "Status": "Ready for Customer Pickup",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK10000015",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO54",
+                "Status": "Ready for Customer Pickup",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK10000015",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO65",
+                "Status": "Ready for Customer Pickup",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            },
+            {
+                "AssignedToUserId": "amgr",
+                "DeliveryMethod": "PICK",
+                "ExpectedShipmentDate": "28-10-2017",
+                "OrderNo": "PICK10000015",
+                "ScacAndService": "",
+                "ShipNode": "Mtrx_Store_1",
+                "ShipmentKey": "PICK1000001_SHPKEY",
+                "ShipmentNo": "PICK1000001SHPNO6",
+                "Status": "Ready for Backroom Pick",
+                "BillToAddress": {
+                    "DayPhone": "123456789",
+                    "EmailID": "Zymer@org.com",
+                    "FirstName": "Ben",
+                    "LastName": "Zymer",
+                    "PersonInfoKey": "1000001"
+                },
+                "ShipmentLines": {
+                    "TotalNumberOfRecords": "6"
+                }
+               
+              
+            }
+                    ]
+                }
+            }

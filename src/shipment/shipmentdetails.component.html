@@ -1,0 +1,65 @@
+<div class="backClose">
+    <button (click)="goBack()">Back</button>
+  <h3>Shipment summery</h3>
+  </div>
+<table style="background-color:grey;">
+    <tr>
+        <td>{{shipmentData.Status}}</td>
+    </tr>
+    <tr>
+<td>
+    <a>ShipmentNumber</a><br/>
+<a>{{shipmentData.ShipmentNo}}</a></td>
+   <td> <a>Expected ship date</a><br/>
+<a>{{shipmentData.ExpectedShipmentDate}}</a><br /><br/></td>
+</tr>
+<tr><td></td>
+    <td></td>
+    <td></td>
+    <td><button [hidden]="showInfo" class="moreInfo" (click)="showMoreInfo()"  >Show info</button></td></tr>
+<tr [hidden]="!showInfo">
+<td >
+    <a>Carrier</a><br/>
+    <a>{{shipmentData.ScacAndService}}</a>
+    </td>
+    <td>
+    <a>Customer info</a><br/>
+    <a>{{shipmentData.BillToAddress.FirstName + shipmentData.BillToAddress.LastName}}</a><br/>
+    <a>{{shipmentData.BillToAddress.Phonenumber}}</a><br/>
+    <a>{{shipmentData.BillToAddress.EmailID}}</a><br/>
+    </td>
+    </tr>
+    <tr [hidden]="!showInfo">
+        <td><a>Assigned to</a><br/>
+        <a>{{shipmentData.AssignedToUserId}}</a><br/><br/>
+        <a>Ship to</a><br/>
+        <a>{{shipmentData.ToAddress.FirstName + shipmentData.ToAddress.LastName}}</a> <br/>
+        <a>{{shipmentData.ToAddress.AddressLine1}}</a><br/>
+        <a>{{shipmentData.ToAddress.City}},{{shipmentData.ToAddress.State}},{{shipmentData.ToAddress.ZipCode}}</a><br/>
+        <a>{{shipmentData.ToAddress.Country}}</a></td>
+        <td>
+    <a>Bill to</a><br/>
+    <a>{{shipmentData.BillToAddress.FirstName + shipmentData.BillToAddress.LastName}}</a><br/>
+    <a>{{shipmentData.BillToAddress.AddressLine1}}</a><br/>
+    <a>{{shipmentData.BillToAddress.Country}}</a><br/>
+    <a>{{shipmentData.ToAddress.City}},{{shipmentData.ToAddress.State}},{{shipmentData.ToAddress.ZipCode}}</a><br/>
+    <a>{{shipmentData.ToAddress.Country}}</a>
+    </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+<td><button class="moreInfo" [hidden]="!showInfo" (click)="hideMoreInfo()"  >Hide info</button></td>
+</tr>
+</table>
+<table>
+   <tr><td><span style="border-bottom: 4px solid rgb(44, 133, 44);">Products({{shipmentData.ShipmentLines.TotalNumberOfRecords}})</span></td>
+<tr *ngFor= "let shipmentItems of shipmentData.ShipmentLines.ShipmentLine">
+    <td><a style="color:green;">{{shipmentItems.OrderLine.ItemDetails.Description}}</a><br/>
+        <a>Product Id:{{shipmentItems.OrderLine.ItemDetails.ItemID}}</a><br/>
+        <a>Quantity: {{shipmentItems.Quantity}} {{shipmentItems.OrderLine.ItemDetails.DisplayUnitOfMeasure}}</a><br/>
+        <a style="color:purple;">Packed: {{shipmentItems.Quantity}} {{shipmentItems.OrderLine.ItemDetails.DisplayUnitOfMeasure}}</a>
+    </td>
+</tr>
+</table>
